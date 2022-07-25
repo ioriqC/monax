@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ****** NavBar ********* */
+.navbar {
+    background: #ECF1F4 !important;
+    padding: 15px 0;
+}
+
+.navbar .nav-item {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #636972;
+    margin: 0 20px;
+    padding: 0;
+    transition: all .4s ease-in-out;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #55BC7E;
+}
+
+.navbar .main-btn {
+    background: #55BC7E ;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 45px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 25px;
+    transition: all .4s ease-in-out;
+}
+
+.navbar .main-btn:hover {
+    background: #49A16C;
+}
